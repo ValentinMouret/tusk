@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "tusk"
+version = "0.1.0"
+description = ""
+authors = ["Valentin Mouret <valentin.mouret@hey.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+psycopg2 = "^2.9.3"
+prettytable = "^3.3.0"
+toml = "^0.10.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.6.0"
+pylint = "^2.14.4"
+mypy = "^0.961"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tusk = "tusk:__main__"

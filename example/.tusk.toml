@@ -1,0 +1,2 @@
+[database]
+url = "dbname=tusk_dev user=postgres"
